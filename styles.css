@@ -1,0 +1,48 @@
+.yatzy-form {
+
+}
+
+table {
+    border-collapse: collapse;
+    border: 2px solid black;
+}
+.headers > td {
+    width: 80px;
+    background-color: rgb(209, 205, 205);
+    border: 2px solid black;
+    border-radius: 2px;
+}
+.headers > th {
+    font-size: 1em;
+    text-align: start;
+    background-color: grey;
+    border: 2px solid black;
+    border-radius: 2px;
+}
+.headers > td > input {
+    border: transparent;
+    width: 80px;
+    background-color: rgb(209, 205, 205);
+}
+.bodies > td {
+    width: 80px;
+    background-color: darkgrey;
+    border: 2px solid black;
+    border-radius: 2px;
+}
+.bodies > td > input {
+    border: transparent;
+    width: 80px;
+    background-color: rgba(172, 172, 172, 0);
+}
+.bodies > td:nth-child(odd) {
+   width: 80px;
+   background-color: white;
+   border-radius: 2px;
+}
+.bodies > th {
+    text-align: start;
+    border: 2px solid black;
+}
+
+
